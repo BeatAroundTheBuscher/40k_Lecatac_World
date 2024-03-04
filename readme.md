@@ -6,6 +6,11 @@ Originally created by Lecatac.
 This is a mod for OpenXCOM with the 40k mod in mind. It should also be useable for other mods
 
 
+## Areas and Countries
+
+- 15 Continents and Oceans
+- 16 Countries
+
 ## Mission Zones
 
 https://www.ufopaedia.org/index.php/Alien_Missions_in_Enemy_Unknown_(OpenXcom)#Mission_Zones
@@ -17,3 +22,15 @@ https://www.ufopaedia.org/index.php/Alien_Missions_in_Enemy_Unknown_(OpenXcom)#M
 - 4 - rectangle
 - 5 - rectangle - where UFOs arrive and leave
 - 6 - dots ??? Space Hulks?
+
+
+## 40k related regions
+
+All these regions (regions_missions_40k.rul) only have a mission zone 0 
+
+- REGION_HULK_SITES - dots
+- REGION_FINAL_MISSION - rectangle
+- REGION_FINAL_MISSION_CHAOS - rectangle
+- REGION_FINAL_MISSION_DEATHWATCH - rectangle
+- WAR_SITES - dots
+- M5_SITES - dots
