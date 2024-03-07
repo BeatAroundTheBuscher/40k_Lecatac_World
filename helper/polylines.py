@@ -127,8 +127,6 @@ def movePolyLineSet(polylineSet):
     currentStartY = polylineSet[1][1]
 
     # print("globe:")
-    
-
     for polyline in polylineSet[1:]:
         for i in range(0, len(polyline), 2):
             polyline[i] = round(polyline[i] - currentStartX + newStartX, 5)
@@ -140,41 +138,41 @@ def movePolyLineSet(polylineSet):
 
 # first element is the new start
 # Imperial Eagle
-polylineSet1 = [[0, 0], polyline1, polyline2, polyline3, polyline4, polyline5, polyline6, polyline7, polyline8, polyline9, polyline10, polyline11] # noqa
+polylineSet1 = [[302, 6], polyline1, polyline2, polyline3, polyline4, polyline5, polyline6, polyline7, polyline8, polyline9, polyline10, polyline11] # noqa
 # R
-polylineSet2 = [[30, 0], polyline12, polyline13, polyline14, polyline15, polyline16] # noqa
+polylineSet2 = [[86, -5], polyline12, polyline13, polyline14, polyline15, polyline16] # noqa
 # J
-polylineSet3 = [[6, 0], polyline17, polyline18, polyline19] # noqa
+polylineSet3 = [[37, -22], polyline17, polyline18, polyline19] # noqa
 # I
-polylineSet4 = [[90, 0], polyline20, polyline21, polyline22] # noqa
+polylineSet4 = [[88, -46], polyline20, polyline21, polyline22] # noqa
 # B see below
-polylineSet5 = [[60, 60], polyline26, polyline27, polyline28] # noqa
+polylineSet5 = [[3, -48], polyline26, polyline27, polyline28] # noqa
 # F
-polylineSet6 = [[150, 0], polyline29, polyline30, polyline31, polyline32] # noqa
+polylineSet6 = [[334, -38], polyline29, polyline30, polyline31, polyline32] # noqa
 # E
-polylineSet7 = [[180, 0], polyline33, polyline34, polyline35] # noqa
+polylineSet7 = [[11, -12], polyline33, polyline34, polyline35] # noqa
 # N
-polylineSet8 = [[210, 0], polyline36, polyline37, polyline38] # noqa
+polylineSet8 = [[300, 35], polyline36, polyline37, polyline38] # noqa
 # A
-polylineSet9 = [[240, 0], polyline39, polyline40] # noqa
+polylineSet9 = [[47, 21], polyline39, polyline40] # noqa
 # P
-polylineSet10 = [[270, 0], polyline42, polyline43, polyline44, polyline45, polyline46] # noqa
+polylineSet10 = [[109, -10], polyline42, polyline43, polyline44, polyline45, polyline46] # noqa
 # O
-polylineSet11 = [[300, 0], polyline47, polyline48, polyline49] # noqa
+polylineSet11 = [[290, -33], polyline47, polyline48, polyline49] # noqa
 # M
-polylineSet12 = [[330, 0], polyline50, polyline51, polyline52, polyline53] # noqa
+polylineSet12 = [[252, -40], polyline50, polyline51, polyline52, polyline53] # noqa
 # S
-polylineSet13 = [[360, 0], polyline54, polyline55] # noqa
+polylineSet13 = [[357, 30], polyline54, polyline55] # noqa
 # U
-polylineSet14 = [[0, 60], polyline56, polyline57, polyline58, polyline59, polyline60] # noqa
+polylineSet14 = [[253, 18], polyline56, polyline57, polyline58, polyline59, polyline60] # noqa
 # D
-polylineSet15 = [[30, 60], polyline61, polyline62, polyline63, polyline64, polyline65] # noqa
+polylineSet15 = [[64, -14], polyline61, polyline62, polyline63, polyline64, polyline65] # noqa
 # B
-polylineSet17 = [[60, 60], polyline23, polyline24, polyline25] # noqa
+polylineSet17 = [[2, -53], polyline23, polyline24, polyline25] # noqa
 # Z
-polylineSet18 = [[60, -60], polyline46] # noqa
+polylineSet18 = [[136, -16], polyline46] # noqa
 # T
-polylineSet18 = [[120, -60], polyline41] # noqa
+polylineSet18 = [[144, -6], polyline41] # noqa
 
 
 
@@ -196,7 +194,7 @@ movePolyLineSet(polylineSet7)
 print("# N")
 movePolyLineSet(polylineSet8)
 print("# A")
-# movePolyLineSet(polylineSet9)
+movePolyLineSet(polylineSet9)
 print("# P")
 movePolyLineSet(polylineSet10)
 print("# O")
