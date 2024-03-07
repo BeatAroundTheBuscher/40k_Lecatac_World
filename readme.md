@@ -21,8 +21,7 @@ https://www.ufopaedia.org/index.php/Alien_Missions_in_Enemy_Unknown_(OpenXcom)#M
 - 3 - dots - cities
 - 4 - rectangle
 - 5 - rectangle - where UFOs arrive and leave
-- 6 - dots ??? Space Hulks?
-
+- 6 - dots - special mission sites (f.ex. DIRECT_TO_MISSION_SITE_TRAJECTORY)
 
 ## 40k related regions
 
