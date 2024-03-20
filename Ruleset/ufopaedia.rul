@@ -1,0 +1,6 @@
+ufopaedia:
+  - id: STR_HELP_MAP          #HELP 50010
+    type_id: 10
+    section: STR_HELP
+    image_id: LECATAC_MAP.SPK
+    listOrder: 50010

@@ -1,0 +1,7 @@
+extraSprites:
+  - type: LECATAC_MAP.SPK                  #HELP
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CODEX/LECATAC_MAP.png
