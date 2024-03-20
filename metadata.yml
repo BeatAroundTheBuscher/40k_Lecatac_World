@@ -1,6 +1,6 @@
 name: "World of Lecatac"
-version: "1.0"
-author: "Lecatac"
-description: ""
+version: "1.1"
+author: "Lecatac + Buscher"
+description: "New Globe originally made by Lecatac. Put into shape (regions, missionZones, etc.) by Buscher"
 id: 40k_world_of_lecatac
 master: "40k"
