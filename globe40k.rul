@@ -3833,7 +3833,7 @@ regions:
   - type: STR_NORTH_AMERICA
     cost: 800000
     areas: 
-      - [199.6564, 276.4257, -64.64359, -14.10513]
+      - [200, 276, -64, -14]
     regionWeight: 18
     missionWeights: 
       STR_ALIEN_RESEARCH: 14
@@ -4023,7 +4023,7 @@ regions:
   - type: STR_ARCTIC
     cost: 950000
     areas: 
-      - [0, 0, -90, -64.64359]
+      - [0, 360, -90, -64]
     regionWeight: 4
     missionWeights: 
       STR_ALIEN_RESEARCH: 25
@@ -4098,7 +4098,7 @@ regions:
   - type: STR_ANTARCTICA
     cost: 900000
     areas: 
-      - [0, 0, 65.818, 90]
+      - [0, 360, 66, 90]
     regionWeight: 4
     missionWeights: 
       STR_ALIEN_RESEARCH: 25
@@ -4182,7 +4182,7 @@ regions:
   - type: STR_SOUTH_AMERICA
     cost: 600000
     areas: 
-      - [210.3333, 276.4257, -14.10513, 65.818]
+      - [210, 276, -14, 66]
     regionWeight: 10
     missionWeights: 
       STR_ALIEN_RESEARCH: 10
@@ -4291,7 +4291,7 @@ regions:
   - type: STR_EUROPE
     cost: 1000000
     areas: 
-      - [355.4666, 51.93329, -64.64359, -5.02816]
+      - [355, 52, -64, -5]
     regionWeight: 16
     missionWeights: 
       STR_ALIEN_RESEARCH: 10
@@ -4467,7 +4467,7 @@ regions:
   - type: STR_NORTH_AFRICA
     cost: 650000
     areas: 
-      - [276.4257, 355.4666, -64.64359, 1.510305]
+      - [276, 355, -64, 1]
     regionWeight: 12
     missionWeights: 
       STR_ALIEN_RESEARCH: 8
@@ -4601,7 +4601,7 @@ regions:
   - type: STR_SOUTHERN_AFRICA
     cost: 550000
     areas: 
-      - [276.4257, 355.4, 1.510305, 65.818]
+      - [276, 355, 1, 66]
     regionWeight: 8
     missionWeights: 
       STR_ALIEN_RESEARCH: 7
@@ -4737,7 +4737,7 @@ regions:
   - type: STR_CENTRAL_ASIA
     cost: 500000
     areas: 
-      - [51.93329, 104.6564, -64.64359, -5.02816]
+      - [52, 105, -64, -5]
     regionWeight: 12
     missionWeights: 
       STR_ALIEN_RESEARCH: 5
@@ -4879,8 +4879,8 @@ regions:
   - type: STR_SOUTH_EAST_ASIA
     cost: 750000
     areas: 
-      - [355.4666, 104.7333, -5.02816, 42.16667]
-      - [355.4, 32.86154, 42.16667, 65.9077]
+      - [355, 105, -5, 42]
+      - [355, 33, 42, 66]
     regionWeight: 15
     missionWeights: 
       STR_ALIEN_RESEARCH: 8
@@ -5003,7 +5003,7 @@ regions:
   - type: STR_SIBERIA
     cost: 800000
     areas: 
-      - [104.6564, 181.5026, -45.16667, 17.20261]
+      - [105, 181, -46, 17]
     regionWeight: 10
     missionWeights: 
       STR_ALIEN_RESEARCH: 6
@@ -5088,7 +5088,7 @@ regions:
   - type: STR_AUSTRALASIA
     cost: 750000
     areas: 
-      - [104.7333, 182.2718, 17.20261, 65.818]
+      - [105, 182, 17, 66]
     regionWeight: 10
     missionWeights: 
       STR_ALIEN_RESEARCH: 15
@@ -5227,7 +5227,7 @@ regions:
   - type: STR_PACIFIC
     cost: 750000
     areas: 
-      - [181.5026, 199.6564, -64.64359, -14.10513]
+      - [182, 200, -64, -14]
     missionZones: 
       - - [194.5, 225.625, -29.25, -15.25]
         - [172.5, 186.875, 10.875, 26.375]
@@ -5298,7 +5298,7 @@ regions:
   - type: STR_NORTH_ATLANTIC
     cost: 750000
     areas: 
-      - [104.6564, 181.5026, -64.64359, -45.16667]
+      - [105, 182, -64, -46]
     missionZones: 
       - - [305, 335, -70, -30]
       - - [305, 335, -70, -30]
@@ -5333,7 +5333,7 @@ regions:
   - type: STR_SOUTH_ATLANTIC
     cost: 750000
     areas: 
-      - [182.2718, 210.3333, -14.10513, 65.818]
+      - [182, 210, -14, 66]
     missionZones: 
       - - [325, 365, 15, 60]
         - [5, 55, 40, 60]
@@ -5350,7 +5350,7 @@ regions:
   - type: STR_INDIAN_OCEAN
     cost: 750000
     areas: 
-      - [32.86154, 104.7333, 42.16667, 65.818]
+      - [33, 105, 42, 66]
     missionZones: 
       - - [55, 70, -10, 10]
         - [70, 90, -5, 10]
